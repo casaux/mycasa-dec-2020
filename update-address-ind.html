@@ -82,37 +82,90 @@
 			<nav class="au-breadcrumbs" aria-label="breadcrumb">
 			  <ul class="au-link-list au-link-list--inline">
 				<li><a href="dashboard-bob-org.html">myCASA</a></li>
-				<li>Organisation profile</li>
+				  <li><a href="organisation-profile.html">Profile</a></li>
+				   <li>Update address details</li>
 			  </ul>
 			</nav>	
 				
-		
-				
 			<header class="au-header" role="banner">
-				<h1 class="au-header-heading">Organisation profile</h1>
-				<a class="au-direction-link au-direction-link--left" href="dashboard-bob-org.html">Back</a>
-			</header>
+				<h1 class="au-header-heading">Update address details</h1>
+				<a class="au-direction-link au-direction-link--left" href="organisation-profile.html">Back</a>
 
-			
-			<h2 class="au-display-md">Organisation details</h2>
-				<strong>Name:</strong> Firefly Aviation
-				<br>
-			<h2 class="au-display-md">Contact details</h2>
-			<strong>Email:</strong> bob@firefly.com <a href="enter-new-address-org.html">Update email address</a><br>
-			<strong>Phone:</strong> 0412 345 678 <a href="update-phone.html">Update phone number</a> 
-				<br>
-			<h2 class="au-display-md">Address details</h2>
-				<strong>Physical:</strong><br>
+				</header>
+					
+					<div class="row">
+					 <div class="col-xs-6">
+				
+<h2 class="au-display-md">Current physical address</h2>
 				16 Furzer Street<br>
 				Phillip<br>
 				ACT, 2606<br>
-				Australia<br>
-				<br>	
-				<strong>Postal:</strong><br>
-				Same as physical<br>
-				<a href="update-address.html">Update address details</a>
+				Australia	
+	<br><br>
+<h2 class="au-display-md">New physical address</h2>
+				<br>
+			
+
 				
-</div>
+<label class="casa-label-guidance" for="select1block">Country</label>
+<select id="select1block" class="au-select au-select--block">
+   <option value="1">Australia</option>
+  <option value="2">Argentina</option>
+  <option value="3">Bangladesh</option>
+  <option value="4">Belgium</option>
+  <option value="5">Canada</option>
+  <option value="6">China</option>
+  <option value="7">Czech Republic</option>
+  <option value="8">Denmark</option>
+</select>
+				
+				<br>
+				<br>
+<label class="casa-label-guidance" for="text-input-block">Address</label>
+				<input class="au-text-input au-text-input--block" name="text-input-block" id="text-input-block" type="text" value="">
+				
+				<br />
+				
+				<a class="au-btn au-btn--secondary" href="#">Enter address manually</a>
+			
+				
+		<br><br>
+				
+				<p>Is your postal address different to your physical address?</p>
+				
+				<br />
+				
+				<label class="au-control-input">
+				  <input class="au-control-input__input" type="radio" name="radio-ex" checked>
+				  <span class="au-control-input__text">No</span>
+				</label>
+				
+				<br /><br />
+				
+				<label class="au-control-input">
+				  <input class="au-control-input__input" type="radio" name="radio-ex">
+				  <span class="au-control-input__text">Yes</span>
+				</label>
+				
+
+				<br><br><br>
+			
+  			<a class="au-btn" href="address-updated-ind.html">Update</a>
+
+
+
+				
+				</div>
+				
+			</form>
+				
+								
+				
+		
+		  </div>
+		  </div>
+				
+			</div>
 			
 			
 			<!--
